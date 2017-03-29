@@ -1,0 +1,2 @@
+debian/bin/jesuscoind usr/bin
+src/jesuscoind usr/lib/jesuscoin

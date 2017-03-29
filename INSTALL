@@ -1,0 +1,9 @@
+Building JesusCoin
+
+See doc/readme-qt.rst for instructions on building JesusCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of JesusCoin.
+
+See doc/build-*.txt for instructions on building JesusCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of JesusCoin.
