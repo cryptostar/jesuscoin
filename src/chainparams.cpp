@@ -83,7 +83,7 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1490212837;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 1518107;
+        genesis.nNonce   = 1531892;
 
         // This will figure out a valid hash and Nonce if you're
         // creating a different genesis block. Uncomment this to make the new block.
@@ -107,8 +107,8 @@ public:
         //assert(hashGenesisBlock == uint256("0x0"));
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0"));
-        assert(genesis.hashMerkleRoot == uint256("0x0"));
+        assert(hashGenesisBlock == uint256("0x00000351ab0e844cdadb5e9ef35866efdbae27ff4b6625b8485d79ebc97c6c7f"));
+        assert(genesis.hashMerkleRoot == uint256("0x84d8b6f51e853d5d50942f5b189ce8e92c324d0e9619b4ca5d3d860c8b13d27c"));
 
         vSeeds.push_back(CDNSSeedData("node (node1)", "94.102.52.66"));
         vSeeds.push_back(CDNSSeedData("node (node1)", "80.82.64.64"));  
